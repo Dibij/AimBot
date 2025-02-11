@@ -8,7 +8,7 @@ An **experimental** aimbot that detects enemies using **YOLOv3** and **OpenCV** 
 > **This project is purely for educational and research purposes.**  
 > I do **NOT** support, encourage, or promote cheating in online games.  
 > Using this script in **multiplayer games** may result in **account bans** or **legal consequences.**  
-> **Use at your own risk.** The author is not responsible for any misuse.  
+> **Use at your own risk. The author is NOT responsible for misuse.**  
 
 ### ⚠ **Not Perfect – Still in Progress**  
 > This **aimbot is not flawless** – it's still a **work in progress**.  
@@ -28,7 +28,7 @@ Check out their channel for more cool AI automation content! 🎯
 ✔ **AI-powered enemy detection** using YOLOv3  
 ✔ **Auto-aim and headshot feature**  
 ✔ **Toggle On/Off** with the "H" key  
-✔ **Lightweight & Fast Processing (60 FPS target, but may lag)**  
+✔ **Optimized for performance (but may experience FPS drops depending on hardware)**  
 ✔ **No need for manual aiming once enabled**  
 
 ---
@@ -53,10 +53,8 @@ pip install numpy pyautogui opencv-python opencv-contrib-python pywin32
 
 ### **3️⃣ Download YOLOv3 Files**
 Place the following files inside the **"Aimbot"** folder:
-- `yolov3.cfg` (YOLOv3 configuration file)
-- `yolov3.weights` (YOLOv3 pre-trained weights)
-
-You can get these from [YOLO official repo](https://pjreddie.com/darknet/yolo/).
+- [`yolov3.cfg`](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) (YOLOv3 configuration file)
+- [`yolov3.weights`](https://pjreddie.com/media/files/yolov3.weights) (YOLOv3 pre-trained weights)
 
 ---
 
@@ -72,8 +70,12 @@ python main.py
 ---
 
 ## **📜 Legal Note**
-This script is intended for **educational use only**. Using it in **online multiplayer games** violates the terms of service of most games and may result in bans or legal actions. **The author does not take responsibility for any misuse.**  
+🚨 **Using this in online multiplayer games may result in bans!**  
+🔴 **This script is intended for educational use only.**  
+🔴 **The author is NOT responsible for misuse or any consequences.**  
+🔴 **Do not use this for cheating in online games!**  
 
 ---
 
-🔹 **This is a buggy, laggy, and imperfect experiment – use responsibly & for learning purposes only!**
+🔹 **This is a buggy, laggy, and imperfect experiment – use responsibly & for learning purposes only!**  
+```
