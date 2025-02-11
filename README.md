@@ -63,7 +63,7 @@ You can get these from [YOLO official repo](https://pjreddie.com/darknet/yolo/).
 ## **🚀 Usage**
 ### **Run the script:**
 ```bash
-python app5.py
+python main.py
 ```
 ### **Controls:**
 - **Press "H"** → Toggle Aimbot ON/OFF
